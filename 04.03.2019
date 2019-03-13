@@ -1,0 +1,38 @@
+*
+* Gold Bar
+*
+
+Risks:
+- Theft / loss via malicious actor.
+- Environmental loss (fire, natural disaster).
+- Accidental loss.
+
+Actors:
+- Thieves
+- Terrorists
+- Activists
+- Workers
+- The environment
+
+
+
+*
+* User Account
+*
+
+Risks:
+- Authentication method (multi-factor, single factor, certificate)
+- Client password entropy (password strength)
+- Client login environment (https (valid certificate), secure key exchange)
+- Server side credential storage (plain text, secure db, encryption)
+- Server architecture (OSS, audited)
+- Client architecure security (Keylogging / malware)
+- User authentication storage (OSS, audited)
+- Identifing UIDs
+
+- Internal access levels
+
+Threat Actors:
+- Government sponoered (Political gain incentive)
+- Organized crime (Money incentive)
+
