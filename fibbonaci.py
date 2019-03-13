@@ -1,4 +1,4 @@
-
+"""
 # Task 1
 var1 = input("Please input your first number: ")
 var2 = input("Please input your second number: ")
@@ -26,6 +26,5 @@ for x in range(16):
     y = z
     z = a + y
     arr.append(z)
-    
-print (arr)    
-"""
+
+print(arr)
