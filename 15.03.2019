@@ -1,0 +1,42 @@
+-
+-- Definitions
+-
+
+Default Gateway:
+	The thing that the host uses to access the Internet / network
+
+Subnet Mask:
+	Identifies the network on which the host is connected. Only used
+	when you are connecting to a device that is not on the same network?
+
+DHCP:   A protocol used to assign configuration options such as the subnet, IP address or the gateway.
+	DHCP can also be used to assign the same configuration options to the same device. (Dynamic Assignment)
+	Can also hand out the next available address. (Automatic Assignment)
+	Assignment is expressed in the form of a lease, which expires accordingly.
+
+Dual Stacking:
+	Running ipv6 & ipv4 simultaniously & determines networks appropriately.
+
+Network Topology Maps:
+	Physical topology map would be used to layout the physical aspects of a network.
+	A logical topology shows information such as servers and more abstracted concepts.
+
+-
+-- Research List
+-
+
+MAC Address Hacking / Spoofing:
+	Changing / Hijacking the MAC address on a NIC to emulate a different user.
+	Might be good from a digital forensics standpoint, to hide that your
+	computer was ever connected.
+
+Network Documentation and Diagrams:
+	Very important, used to track down where networking devices are etc.
+
+How firewalls work:
+	2 port vs 3 port CBA, and what makes firewalls great 
+
+Duplex Mode (Half or Full) 
+
+Crossover Cables vs Straight Through
+	
