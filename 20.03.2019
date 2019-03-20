@@ -1,0 +1,97 @@
+*
+** Research List
+*
+ - Routing
+Unix vs Linux (History)
+Endian (Windows vs Unix)
+Linefeed, carriage return (LF CRLF (Git))
+File headers in Windows & Linux
+What a subnet mask is
+
+ - Switching
+MAC Addressing for switching
+MAC Address tables
+Network packets, and structure.
+Broadcasts (that go to every device). Routers contain these
+Address Resolution Protocol (ARP)
+Multiple Access Layering
+Using routers to split up networks
+
+
+*
+** Networking
+*
+Networking Associations
+ - Internet Engineering Task Force
+	People who run & engineer the Internet.
+
+ - Institute of Electrical and Electronic Engineers (IEEE)
+	Maintains wireless and ethernet standards.
+
+Network Protocols
+ - TCP/IP Model
+	Dumbed down version of the OSI model
+
+	# LAYERS #
+	7. Application
+	6. Application
+	5. Application
+	4. Transport
+	3. Internet
+	2. Network Access
+	1. Network Access
+
+ - Open Systems Interconnection (OSI) Model
+	More lightweight than TCP/IP stack.	
+
+	# LAYERS #
+	- Upper Layers (All these are network aware)
+	7. Application
+	6. Presentation (Data Presentation)
+		TL:DR How can my date from one system be transferred to another
+		PC in a way that it can be used?
+	5. Session (Data Communication Session) 
+	
+	- Lower Layers
+	4. Transport (Segments Transport) (Video and voice streaming (Opus Voice, etc))
+	3. Network (IP, DNS & Routing)
+	2. Data Link (Network Switching, NICs & Drivers)
+	1. Physical 
+
+
+Network Protocols
+ - Logical IP Addressing
+	The network portion is the left hand portion of the IP address. It's the
+	same as everything else on the same network.
+
+	The host portion
+
+ - Subnet Mask
+	The subnet mask is applied to the IP address to determine
+	whether an address is within the local network o
+
+Network Design
+ - Switching Init
+	Initially, the switch listens in on all the MAC addresses being sent 
+	from the network frames. It then makes switching decisions based on
+	these insights. It listens to the source addressess from the frames
+	and makes switching decisions.
+
+ - Exhausting MAC address table results in the switch sending packets to every computer
+   This MAC address table can be done as an attack as MAC address poisoning, which has
+   little practical use, but can used as a good decoy.
+
+ - Layered Design
+	Access, Distribution & Core.
+	Some networks only have 2 layers, as needed dependent on complexity
+
+	1. Access Layer is your end-user devices such as phones, laptops
+	   and PCs. Also contains devices such as switches (Layer 2 switches)
+
+	2. The distribution layer 
+
+ - Routing
+	- Routers can route to different networks internally. These routers typically
+	  have a really small routing table.
+	- I think that switches do some routing for internal networks????
+	- Routers are in networks to make brodcasts smaller.

@@ -1,6 +1,10 @@
 # List of approved users
 creds = [
-    ['Hamish', '122']
+    ['Hamish', 'p.122'],
+    ['Mohammed', 'p.122'],
+    ['Ted', 'p.122'],
+    ['John', 'p.122'],
+    ['Sam', 'p.122']
 ]
 
 user = input('Enter your username \n')
