@@ -1,0 +1,32 @@
+*
+** Research Notes
+*
+Baseband vs Broadband
+Address Resolution Protocol
+IPv4 Address Classes
+Network Address Translation (NAT) (gateway function)
+	Classful & Classless Addressing
+Private IP Addressing
+*
+** Definitions
+*
+
+Broadband:
+	Multiple transmissions occuring at the same time,
+	seperated by frequency / channels.
+
+Baseband:
+	Single channel transmission, not seperated by
+	frequency or channels.
+
+Unix File Permissions:
+	[EG]
+	chmod 723 (CHANGE MODE)
+	chmod (owner,group,something else)
+	
+	First digit (7) is the owners permisions (Read,Write,Execute)
+	It is expressed as an octal number (7=111), which means full
+	read, write, execute permissions (read=1,write=1,ex=1)
+
+	Similary, if the number was 6 (octal 110) it mean that the owner
+	would have read and write, but not execute. Big brains.
