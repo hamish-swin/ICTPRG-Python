@@ -2,8 +2,8 @@
 var1 = input("Please input your first number: ")
 var2 = input("Please input your second number: ")
 
-var1 = float()
-var2 = float()
+var1 = float(var1)
+var2 = float(var2)
 
 
 var4 = ((var1*var2) + (var1+var2) + (var1-var2) + (var1/var2))
